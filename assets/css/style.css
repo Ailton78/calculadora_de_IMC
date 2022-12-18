@@ -69,8 +69,18 @@ form button {
 form button:hover {
   background-color: var(--primary-color-dark);
 }
-.resultado {
+/*.resultado {
   background-color: #43c261;
+}*/
+
+.paragrafo-resultado,
+.bad {
+  background-color: #43c261;
+  width: 100%;
+  padding: 10px 20px;
+}
+.bad {
+  background-color: #ec3a33;
 }
 
 @media (max-width: 480px) {
